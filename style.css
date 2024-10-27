@@ -1,0 +1,51 @@
+body {
+font-family: Arial, sans-serif;
+
+/* The image used */
+background-image: url("gene.jpeg");
+display: flex;
+flex-wrap: wrap;
+
+/* Full height */
+height: 800px;
+overflow: smooth;
+
+background-repeat: no-repeat;
+background-size: cover;
+
+}
+
+  h1 {
+    position: relative;
+    font-size: 30px;
+    color: red;
+  }
+
+#content {
+    margin: auto;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+#log {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    width: 500px;
+    height: 300px;
+    margin: 0 auto;
+    margin-top: 20px;
+    border: 1px solid black;
+    padding: 10px;
+    overflow-y: scroll;
+    background-color: azure;
+}
+button {
+    margin-top: 20px;
+    padding: 10px;
+    font-size: 18px;
+}
